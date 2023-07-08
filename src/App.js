@@ -12,6 +12,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import BreadImage from './BreadsImage';
 import University_Data from './University_Data';
 import Predict_age from './Predict_age';
+import PublicApi from './PublicApi'
+import PokemonApi from './PokemonApi';
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
         <Route path="/jpholder" element={<Jsonplaceholder />}/>
         <Route path="/breads" element={<BreadImage />}/>
         <Route path="/universitydata" element={<University_Data/>}/>
-        <Route path='/predictage' element={<Predict_age/>}></Route>
+        <Route path='/predictage' element={<Predict_age/>}/>
+        <Route path='/publicapi' element={<PublicApi/>}/>
+        <Route path='/pokemonapi' element={<PokemonApi/>}/>
       {/* <Tabl /> */}
       {/* <Test name='Sam'/> */}
       {/* <Conditional_rendering /> */}

@@ -15,6 +15,10 @@ button{
 
 nav{
   background-color: aqua;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
 }
 
 nav ul{
@@ -23,10 +27,7 @@ nav ul{
   align-items: center;
   margin: auto;
   list-style: none;
-  top: 0px;
-  position: fixed;
   background-color: aqua;
-  width: 100%;
 }
 
 nav ul li{
@@ -312,4 +313,20 @@ nav ul li{
 .img-container img{
   height: 100%;
   width: 100%;
+}
+
+/* university Css */
+.university-container{
+  width: 100%;
+  background-color: #99E54D;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h5{
+  margin: 0px;
+  padding: 0px;
 }

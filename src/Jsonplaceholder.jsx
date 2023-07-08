@@ -74,14 +74,6 @@ function Jsonplaceholder() {
                                         <Modal.Title>Address Detail of Mr. <i>{name}</i> </Modal.Title>
                                     </Modal.Header>
                                     <Modal.Body>Street : {street} <br />City :  {city} <br /> ZipCode :  {zip}</Modal.Body>
-                                    {/* <Modal.Footer>
-                                        <Button variant="secondary" onClick={handleClose}>
-                                            Close
-                                        </Button>
-                                        <Button variant="primary" onClick={handleClose}>
-                                            Save Changes
-                                        </Button>
-                                    </Modal.Footer> */}
                                 </Modal>
 
                                 <button onClick={() => companyShow(value)}>Company Detail</button>
